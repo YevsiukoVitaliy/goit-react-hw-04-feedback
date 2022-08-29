@@ -3,8 +3,6 @@ import { useState } from 'react';
 import { Statistics } from 'components/Statistics/Statistics';
 import { Notification } from 'components/Notification/Notification';
 
-import React from 'react';
-
 const Section = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
